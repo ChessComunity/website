@@ -1,0 +1,507 @@
+/*----navbar---*/
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: #111f28;
+}
+
+a.nav-link {
+    color: #dfddda;
+    font-family: "Lobster", sans-serif;
+}
+
+a.nav-link.current {
+    background-color: #dfddda;
+    color:#111f28;
+    font-family: "Lobster", sans-serif;
+}
+
+a.navbar-brand {
+    color: #dfddda;
+    font-family: "Lobster", sans-serif;
+}
+
+.navbar-toggler-icon  {
+    color: #dfddda;
+    width: 100%;
+    height:100%;
+}
+
+.btn {
+    font-family: "Lobster", sans-serif;
+}
+
+/*----Welcome Main background---*/
+
+.media-main {
+
+    height: 75vh;
+
+    background: url('https://cdn.pixabay.com/photo/2017/11/15/08/29/chess-2951256_1280.jpg') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    border-bottom:10px solid #111f28;
+}
+ 
+.event-media-main {
+
+    height: 50vh;
+
+    background: url('https://cdn.pixabay.com/photo/2015/10/11/12/48/chess-982260_1280.jpg') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    border-bottom:10px solid #111f28;
+    
+}
+
+.about-media-main {
+    height: 50vh;
+
+    background: url('https://cdn.pixabay.com/photo/2015/10/11/12/48/chess-982260_1280.jpg') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    border-bottom:10px solid #111f28;
+}
+
+.contact-media-main {
+    height: 50vh;
+
+    background: url('https://cdn.pixabay.com/photo/2015/10/11/12/48/chess-982260_1280.jpg') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    border-bottom:10px solid #111f28;
+}
+
+/*----Alert---*/
+
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+/*----Jumbotron---*/
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.2);
+    color:#fff;
+    font-family: "Lobster", sans-serif;
+    font-size: 20px;
+}
+
+.jumbotron h1 {
+    font-family: "Lobster", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.jumbotron h1 i {
+    color: #101010;
+}
+
+.jumbotron h1 i.left-crown {
+    color: #dfddda;
+}
+
+/*----Background for choice and additonal info---*/
+
+.grid {
+    background-color:#484e52;
+    color:#dfddda;
+}
+
+.container-main {
+    padding: 25px;
+}
+
+.container-additional {
+    padding: 25px;
+    font-family: "Lobster", sans-serif;
+}
+
+.event-media {
+    
+    height:33vh;
+
+    background: url('https://cdn.pixabay.com/photo/2019/12/16/22/09/chess-game-4700395_960_720.jpg') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    border:10px solid #484e52;
+    padding-left: 0px;
+    padding-right: 0px;
+    border:5px solid #111f28;
+}
+
+.event-media a {
+    color:#010101;
+    text-decoration:none;
+}
+
+.about-media a {
+    color:#dfddda;
+    text-decoration:none;
+}
+
+.about-media {
+   
+    height:33vh;
+
+    background: url('https://cdn.pixabay.com/photo/2017/06/22/05/21/park-2429633_960_720.jpg') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    border:10px solid #484e52;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border:5px solid #111f28;
+}
+
+.list-group {
+    background-color:#010101;
+}
+
+/*----Events---*/
+
+.blitz-main {
+    max-height:326.6px;
+
+    background: url('https://th.bing.com/th/id/R.a1c6aa85a719db9262f459b895f42a80?rik=TpgFZnxVzkx%2b8w&riu=http%3a%2f%2fhdqwalls.com%2fwallpapers%2fchess-monochrome-fc.jpg&ehk=qQPtcIAHhs1l90%2bGummj20iRlzeBAUqy68PfecRcwd8%3d&risl=&pid=ImgRaw&r=0') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    position: relative;
+    border-left:10px solid #484e52;
+    border-radius: 5%;
+}
+
+.watch-main {
+    max-height:326.6px;
+
+    background: url('https://wallpaperaccess.com/full/2203468.jpg') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    border-right:10px solid #484e52;
+    border-radius: 5%;
+}
+
+.tactics-main {
+    max-height:326.6px;
+
+    background: url('https://live.staticflickr.com/2928/14019927427_512f0841fd_b.jpg') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    border-left:10px solid #484e52;
+    border-radius: 5%;
+}
+
+.fritz-main {
+    max-height:326.6px;
+
+    background: url('https://c.wallhere.com/photos/28/a6/chessmatt_chess_monochrome_fineart_blackandwhite_bw_sigma_dp3-560665.jpg!d') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    border-right:10px solid #484e52;
+    border-radius: 5%;
+}
+
+.endgame-main {
+    max-height:326.6px;
+
+    background: url('https://cdn.pixabay.com/photo/2019/10/09/20/32/queen-4538186_1280.jpg') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    position: relative;
+    border-left:10px solid #484e52;
+    border-radius: 5%;
+}
+
+.list-group-item {
+    background-color:#dfddda;
+    font-family: "Lobster", sans-serif;
+}
+
+.table-main {
+    background-color: #dfddda;
+    border-radius: 1.0%;
+    font-family: "Lobster", sans-serif;
+    overflow-x: hidden;
+}
+
+.elo-col {
+    padding: 5px;
+    color: #dfddda;
+    font-family: "Lobster", sans-serif;
+    margin-left: 0px;
+}
+
+.table th {
+    font-size: 20px;
+}
+
+/*-----About Section----*/
+
+.about-welcome-container {
+    color:#dfddda;
+    font-family: "Lobster", sans-serif;
+    font-size: 20px;
+}
+
+.piece-container {
+    color:#010101;
+    background-color:#dfddda;
+    width: 100%;
+    min-height: 283px;
+    font-family: "Lobster", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.piece-container-b {
+    color:#dfddda;
+    background-color: #111f28;
+    width: 100%;
+    min-height: 283px;
+    font-family: "Lobster", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/*----Contact----*/
+
+.contact-form-left {
+    padding: 15px 0px 15px 15px;
+    font-family: "Lobster", sans-serif;
+    font-size: 20px;
+}
+
+.contact-form-right {
+    padding:15px 15px 15px 0px;
+}
+
+.contact-form {
+    background-color:#dfddda;
+    padding: 15px;
+}
+
+.contact-image {
+    height:100%;
+
+    background: url('https://cdn.pixabay.com/photo/2020/08/25/11/10/chess-5516446_960_720.jpg') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+/*----Moves Information---*/
+
+.grid, .info-container {
+    color:#010101 !important;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.card-body {
+    background-color:#dfddda;
+    min-height:182.8px;
+    font-family: "Lobster", sans-serif;
+}
+
+.card-title {
+    font-family: "Lobster", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.card-text {
+    padding: 0px;
+    margin: 5px;
+}
+
+/*----Additional Information---*/
+
+.container-additional {
+    color: #dfddda;
+}
+
+.additional-main i {
+    font-family: "Inconsolata", sans-serif;
+    font-weight: 300;
+}
+
+.elo-additional i {
+    font-family: "Inconsolata", sans-serif;
+    font-weight: 300;
+}
+
+/*----Modal---*/
+
+.modal-content{
+    box-shadow:none;
+    font-family: "Lobster", sans-serif;
+    font-size: 20px;
+}
+
+.modal-header {
+    background-color:#343a40;
+    color:#ffffff;
+    font-family: "Lobster", sans-serif;
+}
+
+.modal-body {
+    background-color:#dfddda;
+}
+
+.modal-footer {
+    background-color: #343a40;
+} 
+
+/*----Footer---*/
+
+#footer {
+    background-color: #111f28;
+    color:#dfddda;
+}
+
+.social-icons a {
+    color:#dfddda;
+    font-size:2rem;
+}
+
+.social-icons a, a:hover {
+    text-decoration: none;
+}
+
+/*----Media Queries---*/
+
+@media (max-width: 976px) {
+    .contact-form-left {
+    padding: 15px 15px 15px 15px;
+} 
+    .form-row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .contact-form-left {
+    padding: 15px 0px 15px 15px;
+    }
+
+     .form-row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
